@@ -1,0 +1,64 @@
+html, body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-color:#fff;
+  }
+
+#weather {
+  padding:20px;}
+
+#forecasts h2 { 
+  font-size: 14px;
+  text-transform:uppercase;
+  }
+
+#forecasts h3 { 
+  font-size: 12px;
+  }
+
+#forecasts h3.time { 
+  text-transform:lowercase;
+  }
+#forecasts img.icon { 
+  width:40px;
+  }
+
+.location-item {
+  background-color: #f7f7f7;
+  padding:20px;
+  margin: 10px;
+  width: 175px;
+  float: left;
+  }
+.location-item:last-child {
+  margin-bottom:140px;
+  }
+
+#forecasts img, #forecasts h3 { 
+  display: none; }
+  
+#forecasts .forecast-0 h3, #forecasts .forecast-0 img { 
+  display: inline; }
+
+#timeChange {
+  position: fixed;
+  bottom: 0;
+  height: 80px;
+  padding-top: 20px;
+  width: 100%; 
+  background-color:#e8e8e8; 
+  }
+
+#sliderSizer {
+   margin-left: 5%;
+   width:90%;}
+
+#slider {margin-top:10px;}
+
+.ui-slider-range.ui-slider-range-min {
+background: #fff 
+}
+
+
